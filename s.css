@@ -1,0 +1,81 @@
+h1{
+    margin:auto;
+    text-align: center;
+    width: 25%;
+    color:red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body{
+    background-color: antiquewhite;
+}
+.Menustyling{
+    text-align: center;
+    margin: top 10px;
+    padding: 10px;
+    display: inline-block;/*used to create blocks*/
+    vertical-align: middle;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    background-color:indianred;
+    border:2px solid peru;
+}
+.Menustyling:active{
+    background-color: blue;
+}
+#helpdesk{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color:royalblue;
+    background-color: powderblue;
+    border-radius: 5px;
+}
+.Menustyling p{
+    color:rgb(65,64,64);
+    font-size:14px;
+    font-style:italic;
+}
+.Loanstyling:active{
+    background-color: yellow;
+}
+.Loanstyling{
+    text-align: center;
+    margin-top:10px;
+    padding: 10px;
+    display:inline-block;
+    vertical-align: middle;
+    border-radius: 10px;
+    width:250px;
+    height:250px;
+    background-color: green;
+    border:2px solid peru;
+}
+.Loanstyling > p{
+    color:black;
+}
+#Loantype + p{
+    color:darkblue;
+
+}
+.Investmentstyling{
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 10px;
+    width:20%;
+    height: 180px;
+    background-color: rgb(0, 149, 255);
+    border:2px solid peru;
+}
+.Investmentstyling:active{
+    background-color: rgb(255, 0, 225);
+}
+.InverstType~p{
+    color:rgb(186, 14, 238)
+}
+
